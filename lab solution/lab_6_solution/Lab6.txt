@@ -1,0 +1,130 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2021-03-19 08:29:12 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2021-03-19 08:29:31 INFO  SparkContext:54 - Running Spark version 2.3.2
+2021-03-19 08:29:31 WARN  SparkConf:66 - In Spark 1.0 and later spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone and LOCAL_DIRS in YARN).
+2021-03-19 08:29:31 INFO  SparkContext:54 - Submitted application: Lab 3 Exercise
+2021-03-19 08:29:32 INFO  SecurityManager:54 - Changing view acls to: ac1ash
+2021-03-19 08:29:32 INFO  SecurityManager:54 - Changing modify acls to: ac1ash
+2021-03-19 08:29:32 INFO  SecurityManager:54 - Changing view acls groups to: 
+2021-03-19 08:29:32 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2021-03-19 08:29:32 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ac1ash); groups with view permissions: Set(); users  with modify permissions: Set(ac1ash); groups with modify permissions: Set()
+2021-03-19 08:29:33 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 33545.
+2021-03-19 08:29:33 INFO  SparkEnv:54 - Registering MapOutputTracker
+2021-03-19 08:29:33 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2021-03-19 08:29:33 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2021-03-19 08:29:33 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2021-03-19 08:29:33 INFO  DiskBlockManager:54 - Created local directory at /mnt/fastdata/ac1ash/blockmgr-b031e6fc-0364-4363-b2bb-14460fa9b1dd
+2021-03-19 08:29:33 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2021-03-19 08:29:33 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2021-03-19 08:29:33 INFO  log:192 - Logging initialized @29627ms
+2021-03-19 08:29:34 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-03-19 08:29:34 INFO  Server:419 - Started @29948ms
+2021-03-19 08:29:34 INFO  AbstractConnector:278 - Started ServerConnector@5b6a54f7{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2021-03-19 08:29:34 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6937581e{/jobs,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@18a73fe1{/jobs/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@215ce467{/jobs/job,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c9f193e{/jobs/job/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2d66677b{/stages,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6bdfc16c{/stages/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5357af2c{/stages/stage,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2cf79e50{/stages/stage/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@42b76a2d{/stages/pool,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d99d168{/stages/pool/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@43443f44{/storage,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53513c62{/storage/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2acec227{/storage/rdd,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@29df5487{/storage/rdd/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b83e0e7{/environment,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@116b77d9{/environment/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d685029{/executors,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e405e6f{/executors/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4a901198{/executors/threadDump,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f62ac{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f69839c{/static,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@461b7cb9{/,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@18039eb6{/api,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@71bfaac5{/jobs/job/kill,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6cb70e60{/stages/stage/kill,null,AVAILABLE,@Spark}
+2021-03-19 08:29:34 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node152.shef.ac.uk:4040
+2021-03-19 08:29:35 INFO  SparkContext:54 - Added file file:/home/ac1ash/ScalableML/HPC/../Code/lab6.py at file:/home/ac1ash/ScalableML/HPC/../Code/lab6.py with timestamp 1616142575082
+2021-03-19 08:29:35 INFO  Utils:54 - Copying /home/ac1ash/ScalableML/Code/lab6.py to /mnt/fastdata/ac1ash/spark-e48866ff-dab0-42f2-a762-eecab8380429/userFiles-013b39ab-6a57-4d5a-9f83-95ba6c66b472/lab6.py
+2021-03-19 08:29:35 INFO  Executor:54 - Starting executor ID driver on host localhost
+2021-03-19 08:29:35 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36776.
+2021-03-19 08:29:35 INFO  NettyBlockTransferService:54 - Server created on sharc-node152.shef.ac.uk:36776
+2021-03-19 08:29:35 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2021-03-19 08:29:35 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node152.shef.ac.uk, 36776, None)
+2021-03-19 08:29:35 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node152.shef.ac.uk:36776 with 366.3 MB RAM, BlockManagerId(driver, sharc-node152.shef.ac.uk, 36776, None)
+2021-03-19 08:29:35 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node152.shef.ac.uk, 36776, None)
+2021-03-19 08:29:35 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node152.shef.ac.uk, 36776, None)
+2021-03-19 08:29:35 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@739e1050{/metrics/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:36 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/ac1ash/ScalableML/HPC/spark-warehouse/').
+2021-03-19 08:29:36 INFO  SharedState:54 - Warehouse path is 'file:/home/ac1ash/ScalableML/HPC/spark-warehouse/'.
+2021-03-19 08:29:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e6246e5{/SQL,null,AVAILABLE,@Spark}
+2021-03-19 08:29:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@739f3d2f{/SQL/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@424053c2{/SQL/execution,null,AVAILABLE,@Spark}
+2021-03-19 08:29:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2b56d382{/SQL/execution/json,null,AVAILABLE,@Spark}
+2021-03-19 08:29:37 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@34f3dd35{/static/sql,null,AVAILABLE,@Spark}
+2021-03-19 08:29:38 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2021-03-19 08:29:46 WARN  Utils:66 - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
++--------------------+------+
+|            features|labels|
++--------------------+------+
+|(57,[54,55,56],[1...|   0.0|
+|(57,[54,55,56],[1...|   0.0|
+|(57,[54,55,56],[1...|   0.0|
+|(57,[54,55,56],[1...|   0.0|
+|(57,[54,55,56],[1...|   0.0|
++--------------------+------+
+only showing top 5 rows
+
+Accuracy for best dt model = 0.931189 
+{
+    "cacheNodeIds": false,
+    "checkpointInterval": 10,
+    "featuresCol": "features",
+    "impurity": "entropy",
+    "labelCol": "labels",
+    "maxBins": 10,
+    "maxDepth": 30,
+    "maxMemoryInMB": 256,
+    "minInfoGain": 0.0,
+    "minInstancesPerNode": 1,
+    "predictionCol": "prediction",
+    "probabilityCol": "probability",
+    "rawPredictionCol": "rawPrediction",
+    "seed": 956191873026065186
+}
+Accuracy for best rf model = 0.952132 
+{
+    "cacheNodeIds": false,
+    "checkpointInterval": 10,
+    "featureSubsetStrategy": "sqrt",
+    "featuresCol": "features",
+    "impurity": "gini",
+    "labelCol": "labels",
+    "maxBins": 10,
+    "maxDepth": 10,
+    "maxMemoryInMB": 256,
+    "minInfoGain": 0.0,
+    "minInstancesPerNode": 1,
+    "numTrees": 10,
+    "predictionCol": "prediction",
+    "probabilityCol": "probability",
+    "rawPredictionCol": "rawPrediction",
+    "seed": 42,
+    "subsamplingRate": 0.9
+}
+                 feature  importance
+10               alcohol    0.377636
+1       volatile acidity    0.191530
+5    free sulfur dioxide    0.138464
+7                density    0.124250
+6   total sulfur dioxide    0.042535
+3         residual sugar    0.042286
+4              chlorides    0.025548
+8                     pH    0.021257
+2            citric acid    0.019191
+0          fixed acidity    0.009282
+9              sulphates    0.008020
